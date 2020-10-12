@@ -1,0 +1,71 @@
+{
+    "name": "RocketController",
+    "maps": [
+        {
+            "name": "Rocket",
+            "id": "954194bb-5dcc-413d-93f7-06dab0677283",
+            "actions": [
+                {
+                    "name": "Thrust",
+                    "type": "Button",
+                    "id": "d89555f1-bee9-43de-88a5-c7bf9665782c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold"
+                },
+                {
+                    "name": "BankLeft",
+                    "type": "Button",
+                    "id": "6725ba7c-e3a7-4087-837c-998b2fefdd35",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold"
+                },
+                {
+                    "name": "BankRight",
+                    "type": "Button",
+                    "id": "08cb6fc7-f1d9-4850-9f6b-91c92135f13c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "66456fdf-6a75-4d94-9c3b-57d8defaba5c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thrust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "12008d98-7b2b-4bc0-a2cc-285c186ac385",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BankLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2ba9f40a-2f6e-4df8-97de-d6e44a96c777",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BankRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
